@@ -1,0 +1,60 @@
+Project ID: Run_Event_Collection
+Package Information:
+  Name: Run_Event_Collection
+  Version: 1.0.0
+  Required QTM version: 2020.2.5770
+
+Root type: Subject
+Default fields: [Creation date, Creation time]
+
+Date format: Middle endian
+Date separator: Dash
+Filename filter: \.(pdf|cmo|cmz|docx)$
+
+Types:
+  Subject:
+    Event:
+      Fields: [Event Name]
+      Children: [Session]
+      Directory pattern: $Event Name$
+
+  Session:
+    Batch:
+      Fields: [Batch]
+      Measurements: [Capture]
+      Analyses: [Export Data for Batch]
+      Directory pattern: $Batch$
+
+Measurements:
+  Fields:
+    Measurement length: 30
+    Minimum count: 1
+    Count: 1000
+  Capture:
+    Count: 1000
+
+Analyses:
+  Export Data for Batch:
+    Type: Instantiate template
+    Export session: Yes
+    Template: Templates\Batch\batch_export.php
+    Export measurements: [c3d,xml settings]
+
+Fields:
+  Event Name:
+    Type: String
+    Inherit: Connect
+  Batch:
+    Type: String
+    Inherit: Connect
+
+Columns:
+  Default:
+    Event Name:
+      Width: 200
+      Fields:
+        Default: Event Name
+    Batch:
+      Width: 200
+      Fields:
+        Default: Batch
