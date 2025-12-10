@@ -1,0 +1,9 @@
+<queries>
+	<query name="Right_Hip_X">
+		<Definition condition="Right_Hip_X" query="Right_Hip_X" global="FALSE" subject_tag="NO_SUBJECT" type="LINK_MODEL_BASED" folder="PROCESSED" name="RIGHT_HIP_ANGLES" component="X" max_elements="0" negate_result="FALSE" events="RIGHT_ON,RIGHT_MIDSTANCE,RIGHT_OFF" exclude_events="" has_tag_ref="No" tag_logic="OR" tag="" workspace_name_req="" normalize_flag="TRUE" normalize_points="101" normalize_spline="0" query_type="0" data_type="1"/>
+	</query>
+	<query name="Left_Hip_X">
+		<Definition condition="Left_Hip_X" query="Left_Hip_X" global="FALSE" subject_tag="NO_SUBJECT" type="LINK_MODEL_BASED" folder="PROCESSED" name="LEFT_HIP_ANGLES" component="X" max_elements="0" negate_result="FALSE" events="LEFT_ON,LEFT_MIDSTANCE,LEFT_OFF" exclude_events="" has_tag_ref="No" tag_logic="OR" tag="" workspace_name_req="" normalize_flag="TRUE" normalize_points="101" normalize_spline="0" query_type="0" data_type="1"/>
+	</query>
+</queries>
+
