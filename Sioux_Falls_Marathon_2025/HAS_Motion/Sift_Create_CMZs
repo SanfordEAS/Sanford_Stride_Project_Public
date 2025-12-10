@@ -1,0 +1,14 @@
+From the "Load" window on the left-hand side click "Load C3Ds...".
+
+Click "Theia3d Builder". 
+
+Change the following settings:
+- File Tags = Session
+- Primary Data Folder = Session
+- Theia3D Session Folder Mask = *
+- Theia3D File Mask = *pose_filt_*.c3d
+- Leave all other settings as default or blank
+
+Click "Create CMZs"
+
+This will create a CMZ library consisting of one workspace (CMZ) per subject that contains one C3D file. That C3D file will be the filtered version of the pose estimation from Theia.
