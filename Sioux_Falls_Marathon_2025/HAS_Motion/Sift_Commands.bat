@@ -1,0 +1,6 @@
+set "SIFT=REPACE WITH PATH TO SIFT.exe"
+set "LIB=REPLACE WITH PATH TO CMZ LIBRARY FOLDER"
+set "PIPE=REPLACE WITH PATH TO VISUAL3D PIPELINE"
+set "QRY=REPLACE WITH PATH TO SIFT QUERY"
+set "OUT=REPLACE WITH YOUR DESIRED PATH FOR OUTPUTS"
+"%SIFT%" -NoGUI -LoadLib "%LIB%" -RunV3D script "%PIPE%" onLib -LoadQuery file "%QRY%" -SelectSignals group "Right_Hip_X" -RunPCA name "Right_Hip_X_PCA" -RunLOF grouping "group" manualThreshold "2" autoExclude -SelectSignals group "Left_Hip_X" -RunPCA name "Left_Hip_X_PCA" -RunLOF grouping "group" manualThreshold "2" autoExclude -RunSummaryMetrics Group "Right_Hip_X" MetricAtEvent EventIndex "0" -RunSummaryMetrics Group "Right_Hip_X" MetricAtEvent EventIndex "1" -RunSummaryMetrics Group "Left_Hip_X" MetricAtEvent EventIndex "0" -RunSummaryMetrics Group "Left_Hip_X" MetricAtEvent EventIndex "1" -ExportData file "%OUT%\Data.txt" precision "2" exportFormat "transposed" workspaceMean -SaveProject file "%OUT%\Project.i3d"
