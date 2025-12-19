@@ -6,9 +6,7 @@ Complete scientific documentation can be found [here.](https://osf.io/ebntq/over
 
 ## Licensing 
 
-Code: Released under the MIT License, which means you are free to use, modify, and share the code, including for commercial purposes, as long as you include proper attribution and keep the original license notice.
-
-Data: Shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), which means you must give credit when using the data, you cannot use it for commercial purposes, and if you modify or build upon it, you must share your version under the same license.
+Data is shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), which means you must give credit when using the data, you cannot use it for commercial purposes, and if you modify or build upon it, you must share your version under the same license.
 
 ## Ethics Statement
 
