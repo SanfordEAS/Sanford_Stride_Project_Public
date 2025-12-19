@@ -4,7 +4,7 @@
 ! Review scientific documentation for why this is being done here.
 
 Modify_Signal_Rate
-! /POINT_RATE=
+/POINT_RATE=59
 ! /ANALOG_RATE=
 /ROTATION_RATE=59
 /OVERWRITE_C3D_FILE=TRUE
@@ -1971,3 +1971,4 @@ File_Save
 ! /SET_PROMPT=Save CMZ file
 
 ;
+
