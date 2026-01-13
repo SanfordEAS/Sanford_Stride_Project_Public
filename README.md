@@ -28,4 +28,4 @@ Details about data capture and processing can be found on this LinkedIn post [he
 
 Media about the event can be found [here.](https://www.dakotanewsnow.com/2025/09/21/sanford-stride-project-captures-sioux-falls-marathon-runners-form-unique-study/)
 
-Complete scientific documentation for this specific deployment can be found (link is currently down and will update when available again).
+Complete scientific documentation for this specific deployment can be found [here.](https://osf.io/k53yw/overview?view_only=1afec58b601e49b59006e03b501c2a7b)
