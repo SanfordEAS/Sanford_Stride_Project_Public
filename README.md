@@ -2,7 +2,7 @@
 
 The Sanford Stride Project is a prospective study designed to advance understanding of running-related injuries and performance by integrating 3D motion capture with self-reported training and injury data. This publicly shared dataset represents de-identified contributions from recreational and competitive runners, enabling researchers and practitioners to explore biomechanical and behavioral factors linked to injury risk and performance. By making these data openly available, we aim to support evidence-based strategies for safer, more effective running.
 
-Complete scientific documentation can be found [here.]([https://osf.io/ebntq/overview](https://osf.io/ebntq/overview?view_only=a2dee22cc79043259c9dce47f2dfa977))
+Complete scientific documentation can be found [here.](https://osf.io/ebntq/overview?view_only=a2dee22cc79043259c9dce47f2dfa977)
 
 ## Licensing 
 
